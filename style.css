@@ -110,8 +110,78 @@ margin: 0;
     width: 140px;
     background-image: url(./Bitmap\ \(2\).png);
     color: white;
+    font-size: 20px;  
+    font-weight: bold;
+    font-family: 'Bebas';
+    box-sizing: border-box;
+}
+.o{
+    background-image: url(./Bitmap\ \(1\).png);
+    height: 222px;
+    width: 140px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;  
+    font-family: 'Bebas';
+    box-sizing: border-box;
+}
+.b{
+    background-image: url(./Bitmap.png);
+    height: 222px;
+    width: 140px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px; 
+    font-family: 'Bebas';
+    box-sizing: border-box; 
+    
     
 }
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    max-width: 920px;
+    width: 100%;
+    margin:auto ;
+}
+.imgs{
+    width: 32%;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    padding: 39px 22px 39px 22px;
+    margin-top: 50px;
+}
+.PO{
+ color:#48555B;
+ font-size: 16px;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: bold;
+ letter-spacing: 0.19 px;
+ margin-bottom: 13px;
+}
+.juo{
+    color:#48555B;
+ font-size: 13px;
+ font-family: 'Open Sans', sans-serif;
+
+}
+@media (max-width: 755px) {
+    .blocks{
+        display: block;
+    }
+    .imgs{
+        width: 60%;
+        margin: auto;
+    }
+    
+}
+@media (max-width:425px) {
+    .imgs{
+        width: initial;
+    }
+    
+}
+
 
 
 
